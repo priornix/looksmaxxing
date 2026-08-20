@@ -1,0 +1,13 @@
+[
+ {"id":"c_mewing_alt","text":"Habitual tongue posture changes the adult skeletal jaw.",
+  "entities":["mewing","maxilla","suture"],"llm_risk_tier":"COSMETIC","harm_note":null,
+  "queries":["mewing craniofacial adult","orthotropics maxillary expansion adult"]},
+ {"id":"c_marpe_alt","text":"Micro-implant-assisted rapid palatal expansion produced skeletal maxillary expansion in adults.",
+  "entities":["maxilla","suture","palatal","expansion"],"llm_risk_tier":"HIGH",
+  "harm_note":"Clinician-placed skeletal appliance; implant failure, asymmetric expansion and gingival trauma are reported. Requires CBCT assessment.",
+  "queries":["micro-implant assisted rapid palatal expansion adult","MARPE skeletal expansion outcomes complications"]},
+ {"id":"c_ortho_surg","text":"Orthognathic surgery produces measurable change in facial skeletal proportions.",
+  "entities":["orthognathic","mandible","maxilla"],"llm_risk_tier":"HIGH",
+  "harm_note":"Major surgery under general anaesthetic. Nerve injury, relapse, and prolonged recovery are documented risks; requires board-certified surgeon assessment.",
+  "queries":["orthognathic surgery facial skeletal change","bimaxillary osteotomy outcomes adult"]}
+]

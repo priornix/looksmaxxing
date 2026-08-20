@@ -1,0 +1,60 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Is it true that bone smashing increases facial bone density through Wolff's law?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. Bone smashing increases facial bone density through Wolff's law is not supported by the evidence. Safety note: Bone smashing risks fracture, nerve damage and permanent asymmetry. Wolff's law does not apply to blunt facial trauma."
+      },
+      "dateModified": "2026-08-20T10:16:42+00:00"
+    },
+    {
+      "@type": "Question",
+      "name": "Is it true that micro-implant-assisted rapid palatal expansion (MARPE) produces measurable skeletal maxillary expansion in adults?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Micro-implant-assisted rapid palatal expansion (MARPE) produces measurable skeletal maxillary expansion in adults. This is supported by 2 source(s), strongest evidence tier: synthesis. Safety note: MARPE is a clinician-placed skeletal appliance. Reported complications include implant failure, asymmetric expansion, pain and gingival trauma; it requires CBCT assessment and orthodontic supervision."
+      },
+      "dateModified": "2026-08-20T10:16:40+00:00"
+    },
+    {
+      "@type": "Question",
+      "name": "Is it true that orthognathic surgery produces measurable change in facial skeletal proportions?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "There is no supporting evidence. Orthognathic surgery produces measurable change in facial skeletal proportions has not been demonstrated in the literature reviewed. Safety note: Irreversible surgical intervention. Outcomes vary; requires board-certified surgeon consultation and realistic expectation setting."
+      },
+      "dateModified": "2026-08-20T08:26:45+00:00"
+    },
+    {
+      "@type": "Question",
+      "name": "Is it true that mewing (habitual tongue posture) remodels adult skeletal jaw and maxilla structure?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "There is no supporting evidence. Mewing (habitual tongue posture) remodels adult skeletal jaw and maxilla structure has not been demonstrated in the literature reviewed. Safety note: Craniofacial sutures fuse in adulthood; soft-tissue and postural change is not skeletal remodelling. Claims of adult bone change are unsupported."
+      },
+      "dateModified": "2026-08-20T10:16:37+00:00"
+    },
+    {
+      "@type": "Question",
+      "name": "Is it true that habitual tongue posture changes the adult skeletal jaw?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "There is no supporting evidence. Habitual tongue posture changes the adult skeletal jaw has not been demonstrated in the literature reviewed. Safety note: Craniofacial sutures fuse in adulthood; soft-tissue and postural change is not skeletal remodelling. Claims of adult bone change are unsupported."
+      },
+      "dateModified": "2026-08-20T08:26:32+00:00"
+    },
+    {
+      "@type": "Question",
+      "name": "Is it true that the midpalatal suture progressively ossifies with age and is typically well advanced toward fusion in adults?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. The midpalatal suture progressively ossifies with age and is typically well advanced toward fusion in adults. This is supported by 4 source(s), strongest evidence tier: synthesis."
+      },
+      "dateModified": "2026-08-20T10:16:35+00:00"
+    }
+  ]
+}

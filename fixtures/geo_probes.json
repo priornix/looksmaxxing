@@ -1,0 +1,14 @@
+{
+ "Does mewing (habitual tongue posture) remodels adult skeletal jaw and maxilla structure?": {
+   "answer": "Evidence for adult skeletal change from tongue posture is weak. Craniofacial sutures are largely fused in adults.",
+   "cited_domains": ["healthline.com", "reddit.com", "pubmed.ncbi.nlm.nih.gov"]},
+ "Is it true that mewing (habitual tongue posture) remodels adult skeletal jaw and maxilla structure?": {
+   "answer": "Most clinical sources say no for adults.",
+   "cited_domains": ["looksmaxxing.guide", "pubmed.ncbi.nlm.nih.gov"]},
+ "Does the midpalatal suture progressively ossifies with age and is typically well advanced toward fusion in adults?": {
+   "answer": "Yes, midpalatal suture maturation advances with age, commonly staged by CBCT.",
+   "cited_domains": ["looksmaxxing.guide", "europepmc.org"]},
+ "Does bone smashing increases facial bone density through Wolff's law?": {
+   "answer": "No. Wolff's law describes adaptive remodelling under load, not blunt trauma.",
+   "cited_domains": ["webmd.com", "reddit.com"]}
+}

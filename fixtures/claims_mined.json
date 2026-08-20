@@ -1,0 +1,15 @@
+[
+ {"id":"c_suture","text":"The midpalatal suture progressively ossifies with age and is typically well advanced toward fusion in adults.",
+  "entities":["suture","palatal","maxilla"],"llm_risk_tier":"COSMETIC","harm_note":null,"verdict":"supported",
+  "queries":["palatal suture fusion age adult","midpalatal suture maturation adult"]},
+ {"id":"c_mewing","text":"Mewing (habitual tongue posture) remodels adult skeletal jaw and maxilla structure.",
+  "entities":["mewing","orthotropic","maxilla"],"llm_risk_tier":"COSMETIC","harm_note":null,"verdict":"unsupported",
+  "queries":["mewing craniofacial adult","orthotropics maxillary expansion adult"]},
+ {"id":"c_marpe","text":"Micro-implant-assisted rapid palatal expansion (MARPE) produces measurable skeletal maxillary expansion in adults.",
+  "entities":["maxilla","suture","palatal","expansion"],"llm_risk_tier":"HIGH",
+  "harm_note":"MARPE is a clinician-placed skeletal appliance. Reported complications include implant failure, asymmetric expansion, pain and gingival trauma; it requires CBCT assessment and orthodontic supervision.",
+  "verdict":"supported","queries":["micro-implant assisted rapid palatal expansion adult","MARPE skeletal expansion outcomes complications"]},
+ {"id":"c_bonesmash","text":"Bone smashing increases facial bone density through Wolff's law.",
+  "entities":["bone","facial","remodeling"],"llm_risk_tier":"MODERATE","harm_note":null,"verdict":"refuted",
+  "queries":["facial bone microtrauma remodeling","Wolff law facial bone loading"]}
+]

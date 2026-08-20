@@ -1,0 +1,401 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "looksmaxxing.guide claim ledger",
+  "description": "Atomic, evidence-tiered claims about male grooming and aesthetics, each verified against primary literature with a recorded verification date.",
+  "url": "https://looksmaxxing.guide/claims.json",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "dateModified": "2026-08-20",
+  "creator": {
+    "@type": "Organization",
+    "name": "looksmaxxing.guide"
+  },
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "application/json",
+      "contentUrl": "https://looksmaxxing.guide/claims.json"
+    }
+  ],
+  "measurementTechnique": "Europe PMC + openFDA retrieval, relevance gating, LLM entailment against full text",
+  "claims": [
+    {
+      "id": "c_bonesmash",
+      "canonical_text": "Bone smashing increases facial bone density through Wolff's law.",
+      "entities": [
+        "bone",
+        "facial",
+        "remodeling"
+      ],
+      "evidence_tier": 0,
+      "risk_tier": 3,
+      "verdict": "refuted",
+      "harm_note": "Bone smashing risks fracture, nerve damage and permanent asymmetry. Wolff's law does not apply to blunt facial trauma.",
+      "sources": [
+        {
+          "ext_id": "34235032",
+          "source_db": "europepmc",
+          "title": "Combating Constraints of the Functional Matrix: The Importance of Overcorrection in Pediatric Craniofacial Surgery.",
+          "year": 2021,
+          "pub_type": "research-article; Journal Article",
+          "resolved": true,
+          "entails": false,
+          "substrate": "abstract",
+          "note": "no recorded verdict"
+        },
+        {
+          "ext_id": "40207031",
+          "source_db": "europepmc",
+          "title": "Aggressive idiopathic condylar reabsorption after orthognathic surgery: A complex Imaging diagnosis.",
+          "year": 2025,
+          "pub_type": "Journal Article; Case Reports; case-report",
+          "resolved": true,
+          "entails": false,
+          "substrate": "abstract",
+          "note": "no recorded verdict"
+        },
+        {
+          "ext_id": "41050039",
+          "source_db": "europepmc",
+          "title": "Traumatic Carotid Artery Dissection Following a Brazilian Jiu-Jitsu Chokehold: A Case Report.",
+          "year": 2025,
+          "pub_type": "Journal Article; Case Reports; case-report",
+          "resolved": true,
+          "entails": false,
+          "substrate": "abstract",
+          "note": "no recorded verdict"
+        },
+        {
+          "ext_id": "41362672",
+          "source_db": "europepmc",
+          "title": "Mechanotransduction and musculoskeletal regeneration: Molecular mechanisms and interdisciplinary applications.",
+          "year": 2026,
+          "pub_type": "review-article; Review; Journal Article",
+          "resolved": true,
+          "entails": false,
+          "substrate": "abstract",
+          "note": "no recorded verdict"
+        },
+        {
+          "ext_id": "42054658",
+          "source_db": "europepmc",
+          "title": "Jewish Contributions to Plastic and Reconstructive Surgery.",
+          "year": 2026,
+          "pub_type": "research-article; Journal Article",
+          "resolved": true,
+          "entails": false,
+          "substrate": "abstract",
+          "note": "no recorded verdict"
+        },
+        {
+          "ext_id": "42110953",
+          "source_db": "europepmc",
+          "title": "Advances of piezoelectric biomaterials in bone defect repair: The role of direct and inverse piezoelectric effect.",
+          "year": 2026,
+          "pub_type": "review-article; Review; Journal Article",
+          "resolved": true,
+          "entails": false,
+          "substrate": "abstract",
+          "note": "no recorded verdict"
+        }
+      ],
+      "verified_at": "2026-08-20T10:16:42+00:00",
+      "tripwire_hit": "\\bbone[\\s-]?smash"
+    },
+    {
+      "id": "c_marpe",
+      "canonical_text": "Micro-implant-assisted rapid palatal expansion (MARPE) produces measurable skeletal maxillary expansion in adults.",
+      "entities": [
+        "maxilla",
+        "suture",
+        "palatal",
+        "expansion"
+      ],
+      "evidence_tier": 5,
+      "risk_tier": 2,
+      "verdict": "supported",
+      "harm_note": "MARPE is a clinician-placed skeletal appliance. Reported complications include implant failure, asymmetric expansion, pain and gingival trauma; it requires CBCT assessment and orthodontic supervision.",
+      "sources": [
+        {
+          "ext_id": "41184931",
+          "source_db": "europepmc",
+          "title": "The effect of different micro-implant-assisted rapid palatal expanders designed digitally: a three-dimensional finite element analysis.",
+          "year": 2025,
+          "pub_type": "Comparative Study; research-article; Journal Article",
+          "resolved": true,
+          "entails": false,
+          "substrate": "abstract",
+          "note": "no recorded verdict"
+        },
+        {
+          "ext_id": "41663686",
+          "source_db": "europepmc",
+          "title": "CBCT-based evidence on alternate expansion-constriction (AEC) protocols with micro-implant assisted/skeletal expanders (MARPE/MSE): a scoping review.",
+          "year": 2026,
+          "pub_type": "Scoping Review; Review; Journal Article",
+          "resolved": true,
+          "entails": false,
+          "substrate": "abstract",
+          "note": "no recorded verdict"
+        },
+        {
+          "ext_id": "42080578",
+          "source_db": "europepmc",
+          "title": "Relationship between the efficacy of micro-implant-assisted rapid maxillary arch expansion and maturation of the midpalatal sutures.",
+          "year": 2026,
+          "pub_type": "research-article; Journal Article",
+          "resolved": true,
+          "entails": true,
+          "substrate": "fulltext",
+          "note": "Reports MARPE efficacy relative to suture maturation stage in adults; supports skeletal (not merely dental) expansion."
+        },
+        {
+          "ext_id": "42187639",
+          "source_db": "europepmc",
+          "title": "Clinical Outcomes, Success/Failure Patterns, and Complications of Microscrew-Assisted Rapid Palatal Expansion in Post-Pubertal Transverse Maxillary Deficiency: A Scoping Review.",
+          "year": 2026,
+          "pub_type": "review-article; Review; Journal Article",
+          "resolved": true,
+          "entails": true,
+          "substrate": "fulltext",
+          "note": "Systematic review of MARPE outcomes reports skeletal expansion achieved in adult patients with defined success/failure patterns and complications."
+        },
+        {
+          "ext_id": "42589891",
+          "source_db": "europepmc",
+          "title": "Clinical Application of Surgical Guides in MARPE: Observational Research.",
+          "year": 2026,
+          "pub_type": "Journal Article",
+          "resolved": true,
+          "entails": false,
+          "substrate": "abstract",
+          "note": "no recorded verdict"
+        },
+        {
+          "ext_id": "42603326",
+          "source_db": "europepmc",
+          "title": "EFFECTIVENESS OF STANDARD AND INDIVIDUALIZED MARPE DEVICES IN ADULT PATIENTS BASED ON CONE BEAM COMPUTED TOMOGRAPHY DATA.",
+          "year": 2026,
+          "pub_type": "Journal Article",
+          "resolved": true,
+          "entails": false,
+          "substrate": "abstract",
+          "note": "no recorded verdict"
+        }
+      ],
+      "verified_at": "2026-08-20T10:16:40+00:00",
+      "tripwire_hit": null
+    },
+    {
+      "id": "c_ortho_surg",
+      "canonical_text": "Orthognathic surgery produces measurable change in facial skeletal proportions.",
+      "entities": [
+        "orthognathic",
+        "mandible",
+        "maxilla"
+      ],
+      "evidence_tier": 0,
+      "risk_tier": 2,
+      "verdict": "unsupported",
+      "harm_note": "Irreversible surgical intervention. Outcomes vary; requires board-certified surgeon consultation and realistic expectation setting.",
+      "sources": [
+        {
+          "ext_id": "42122071",
+          "source_db": "europepmc",
+          "title": "Fully Digital vs. Conventional Planning in Bimaxillary Orthognathic Surgery: Effects on 3D Accuracy and Surgical Efficiency.",
+          "year": 2026,
+          "pub_type": "research-article; Journal Article",
+          "resolved": true,
+          "entails": false,
+          "substrate": "abstract",
+          "note": "no recorded verdict"
+        },
+        {
+          "ext_id": "42191967",
+          "source_db": "europepmc",
+          "title": "Long-term patient satisfaction and complication rates after orthognathic surgery: a minimum 3-year follow-up study.",
+          "year": 2026,
+          "pub_type": "research-article; Journal Article",
+          "resolved": true,
+          "entails": false,
+          "substrate": "abstract",
+          "note": "no recorded verdict"
+        },
+        {
+          "ext_id": "42381019",
+          "source_db": "europepmc",
+          "title": "State-of-the-art 3D analysis of soft tissue prediction for orthognathic correction of dentofacial deformities in the Egyptian population.",
+          "year": 2026,
+          "pub_type": "Journal Article",
+          "resolved": true,
+          "entails": false,
+          "substrate": "abstract",
+          "note": "no recorded verdict"
+        },
+        {
+          "ext_id": "42413457",
+          "source_db": "europepmc",
+          "title": "Sex-related differences in skeletal relapse after bimaxillary orthognathic surgery: A retrospective case-control study.",
+          "year": 2026,
+          "pub_type": "Journal Article",
+          "resolved": true,
+          "entails": false,
+          "substrate": "abstract",
+          "note": "no recorded verdict"
+        },
+        {
+          "ext_id": "42418925",
+          "source_db": "europepmc",
+          "title": "Functional and morphometric outcome of adaptable slicing condylectomy in transverse condylar hyperplasia: A deep learning-enhanced 3D study.",
+          "year": 2026,
+          "pub_type": "Journal Article",
+          "resolved": true,
+          "entails": false,
+          "substrate": "abstract",
+          "note": "no recorded verdict"
+        },
+        {
+          "ext_id": "42559490",
+          "source_db": "europepmc",
+          "title": "Interdisciplinary Management of Severe Excessive Gingival Display: A Case Report.",
+          "year": 2026,
+          "pub_type": "Journal Article; Case Reports",
+          "resolved": true,
+          "entails": false,
+          "substrate": "abstract",
+          "note": "no recorded verdict"
+        }
+      ],
+      "verified_at": "2026-08-20T08:26:45+00:00",
+      "tripwire_hit": "\\b(jaw|orthognathic|rhinoplast|blephar|z"
+    },
+    {
+      "id": "c_mewing",
+      "canonical_text": "Mewing (habitual tongue posture) remodels adult skeletal jaw and maxilla structure.",
+      "entities": [
+        "mewing",
+        "orthotropic",
+        "maxilla"
+      ],
+      "evidence_tier": 0,
+      "risk_tier": 1,
+      "verdict": "unsupported",
+      "harm_note": "Craniofacial sutures fuse in adulthood; soft-tissue and postural change is not skeletal remodelling. Claims of adult bone change are unsupported.",
+      "sources": [
+        {
+          "ext_id": "28050064",
+          "source_db": "europepmc",
+          "title": "Effect of retraction of anterior teeth on pharyngeal airway and hyoid bone position in Class I bimaxillary dentoalveolar protrusion.",
+          "year": 2016,
+          "pub_type": "research-article; Journal Article",
+          "resolved": true,
+          "entails": false,
+          "substrate": "abstract",
+          "note": "no recorded verdict"
+        }
+      ],
+      "verified_at": "2026-08-20T10:16:37+00:00",
+      "tripwire_hit": "\\b(mew(ing)?|tongue\\s+post\\w+|orthotropi"
+    },
+    {
+      "id": "c_mewing_alt",
+      "canonical_text": "Habitual tongue posture changes the adult skeletal jaw.",
+      "entities": [
+        "mewing",
+        "maxilla",
+        "suture"
+      ],
+      "evidence_tier": 0,
+      "risk_tier": 1,
+      "verdict": "unsupported",
+      "harm_note": "Craniofacial sutures fuse in adulthood; soft-tissue and postural change is not skeletal remodelling. Claims of adult bone change are unsupported.",
+      "sources": [
+        {
+          "ext_id": "28050064",
+          "source_db": "europepmc",
+          "title": "Effect of retraction of anterior teeth on pharyngeal airway and hyoid bone position in Class I bimaxillary dentoalveolar protrusion.",
+          "year": 2016,
+          "pub_type": "research-article; Journal Article",
+          "resolved": true,
+          "entails": false,
+          "substrate": "abstract",
+          "note": "no recorded verdict"
+        }
+      ],
+      "verified_at": "2026-08-20T08:26:32+00:00",
+      "tripwire_hit": "\\b(mew(ing)?|tongue\\s+post\\w+|orthotropi"
+    },
+    {
+      "id": "c_suture",
+      "canonical_text": "The midpalatal suture progressively ossifies with age and is typically well advanced toward fusion in adults.",
+      "entities": [
+        "suture",
+        "palatal",
+        "maxilla"
+      ],
+      "evidence_tier": 5,
+      "risk_tier": 0,
+      "verdict": "supported",
+      "harm_note": null,
+      "sources": [
+        {
+          "ext_id": "41857586",
+          "source_db": "europepmc",
+          "title": "Evaluation of midpalatal suture maturation in young adults using cone-beam computed tomography.",
+          "year": 2026,
+          "pub_type": "research-article; Journal Article",
+          "resolved": true,
+          "entails": true,
+          "substrate": "fulltext",
+          "note": "CBCT staging shows midpalatal suture maturation stages C-E predominate in young adults; directly supports progressive ossification with age."
+        },
+        {
+          "ext_id": "42080578",
+          "source_db": "europepmc",
+          "title": "Relationship between the efficacy of micro-implant-assisted rapid maxillary arch expansion and maturation of the midpalatal sutures.",
+          "year": 2026,
+          "pub_type": "research-article; Journal Article",
+          "resolved": true,
+          "entails": true,
+          "substrate": "fulltext",
+          "note": "Reports MARPE efficacy relative to suture maturation stage in adults; supports skeletal (not merely dental) expansion."
+        },
+        {
+          "ext_id": "42187639",
+          "source_db": "europepmc",
+          "title": "Clinical Outcomes, Success/Failure Patterns, and Complications of Microscrew-Assisted Rapid Palatal Expansion in Post-Pubertal Transverse Maxillary Deficiency: A Scoping Review.",
+          "year": 2026,
+          "pub_type": "review-article; Review; Journal Article",
+          "resolved": true,
+          "entails": true,
+          "substrate": "fulltext",
+          "note": "Systematic review of MARPE outcomes reports skeletal expansion achieved in adult patients with defined success/failure patterns and complications."
+        },
+        {
+          "ext_id": "42253826",
+          "source_db": "europepmc",
+          "title": "Predicting Growth Markers for Effective Palatal Expansion: A Comparative Study of DMPS, SMPS, and CVM.",
+          "year": 2026,
+          "pub_type": "research-article; Journal Article",
+          "resolved": true,
+          "entails": true,
+          "substrate": "abstract",
+          "note": "Growth-marker prediction study; supports age-dependent suture maturation but does not measure fusion endpoint directly."
+        },
+        {
+          "ext_id": "42589891",
+          "source_db": "europepmc",
+          "title": "Clinical Application of Surgical Guides in MARPE: Observational Research.",
+          "year": 2026,
+          "pub_type": "Journal Article",
+          "resolved": true,
+          "entails": false,
+          "substrate": "abstract",
+          "note": "no recorded verdict"
+        }
+      ],
+      "verified_at": "2026-08-20T10:16:35+00:00",
+      "tripwire_hit": null
+    }
+  ]
+}

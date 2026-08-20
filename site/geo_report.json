@@ -1,0 +1,115 @@
+{
+  "geo_score": {
+    "score": 0.783,
+    "parts": {
+      "extractability": 0.8,
+      "answer_first": 1.0,
+      "structured_data": 0.6,
+      "freshness": 1.0,
+      "attribution": 0.333
+    },
+    "answer_first_why": "opens on supported, unsupported",
+    "extractability_findings": [
+      {
+        "i": 3,
+        "sentence": "That is a supervised orthodontic procedure with documented complications [[c_mar",
+        "problems": [
+          "orphan_pronoun",
+          "no_entity_named"
+        ]
+      }
+    ]
+  },
+  "citation_probe": {
+    "ts": "2026-08-20T12:32:34+00:00",
+    "mode": "recorded",
+    "questions": 12,
+    "answered": 1,
+    "coverage": 0.083,
+    "sufficient_data": false,
+    "citation_rate": null,
+    "top_competitors": [
+      [
+        "pubmed.ncbi.nlm.nih.gov",
+        1
+      ]
+    ],
+    "rows": [
+      {
+        "question": "Is it true that bone smashing increases facial bone density through Wolff's law?",
+        "cited": false,
+        "domains": [],
+        "answered": false
+      },
+      {
+        "question": "does bone actually work?",
+        "cited": false,
+        "domains": [],
+        "answered": false
+      },
+      {
+        "question": "is bone real or a myth?",
+        "cited": false,
+        "domains": [],
+        "answered": false
+      },
+      {
+        "question": "Is it true that micro-implant-assisted rapid palatal expansion (MARPE) produces measurable skeletal maxillary expansion in adults?",
+        "cited": false,
+        "domains": [],
+        "answered": false
+      },
+      {
+        "question": "does maxilla actually work?",
+        "cited": false,
+        "domains": [],
+        "answered": false
+      },
+      {
+        "question": "is maxilla real or a myth?",
+        "cited": false,
+        "domains": [],
+        "answered": false
+      },
+      {
+        "question": "Is it true that orthognathic surgery produces measurable change in facial skeletal proportions?",
+        "cited": false,
+        "domains": [],
+        "answered": false
+      },
+      {
+        "question": "does orthognathic actually work?",
+        "cited": false,
+        "domains": [],
+        "answered": false
+      },
+      {
+        "question": "is orthognathic real or a myth?",
+        "cited": false,
+        "domains": [],
+        "answered": false
+      },
+      {
+        "question": "Is it true that mewing (habitual tongue posture) remodels adult skeletal jaw and maxilla structure?",
+        "cited": true,
+        "domains": [
+          "looksmaxxing.guide",
+          "pubmed.ncbi.nlm.nih.gov"
+        ],
+        "answered": true
+      },
+      {
+        "question": "does mewing actually work?",
+        "cited": false,
+        "domains": [],
+        "answered": false
+      },
+      {
+        "question": "is mewing real or a myth?",
+        "cited": false,
+        "domains": [],
+        "answered": false
+      }
+    ]
+  }
+}

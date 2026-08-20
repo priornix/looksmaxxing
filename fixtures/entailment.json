@@ -1,0 +1,7 @@
+{
+ "41857586":{"entails":true,"substrate":"fulltext","why":"CBCT staging shows midpalatal suture maturation stages C-E predominate in young adults; directly supports progressive ossification with age."},
+ "42253826":{"entails":true,"substrate":"abstract","why":"Growth-marker prediction study; supports age-dependent suture maturation but does not measure fusion endpoint directly."},
+ "42187639":{"entails":true,"substrate":"fulltext","why":"Systematic review of MARPE outcomes reports skeletal expansion achieved in adult patients with defined success/failure patterns and complications."},
+ "42080578":{"entails":true,"substrate":"fulltext","why":"Reports MARPE efficacy relative to suture maturation stage in adults; supports skeletal (not merely dental) expansion."},
+ "42325701":{"entails":false,"substrate":"abstract","why":"Reddit thematic analysis of ankyloglossia perceptions; no craniofacial measurement. Would have shipped as a citation under existence-only checking."}
+}

@@ -1,0 +1,13 @@
+# looksmaxxing.guide
+
+> Evidence-led coverage of male grooming, fitness, skincare, dental and style.
+> Every factual claim is verified against primary literature and dated. 6 claims currently in the ledger.
+
+## Citation
+Claims are machine-readable at https://looksmaxxing.guide/claims.json (schema.org Dataset).
+Each claim carries: verdict, evidence tier, source PMIDs, and verification date.
+Cite the claim id and verification date; claims are re-verified and may change.
+
+## Pages
+- [Is jaw surgery worth it for looks?](https://looksmaxxing.guide/jaw-surgery-worth-it): 3 verified claims
+- [Does mewing change adult jaw structure?](https://looksmaxxing.guide/mewing-adult-jaw): 4 verified claims
